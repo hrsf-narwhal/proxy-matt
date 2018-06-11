@@ -39,7 +39,8 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       title: 'Itsy',
-      template: 'client/index.html'
+      template: 'client/index.html',
+      inject: false
     }),
 
     new MiniCssExtractPlugin({
