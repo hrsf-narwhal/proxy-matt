@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#page {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+header,
+header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+ margin: 1.5rem 12px;
+}
+
+nav {
+	border: 0 solid #eee;
+	border-width: 1px 0;
+	margin-bottom: 1.5rem;
+}
+
+nav ul {
+	font-size: 0;
+	padding: 12px 0;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	list-style: none;
+	margin: 0 12px;
+	padding: 0;
+	vertical-align: top;
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#column-left {
+	max-width: 570px;
+}
+
+#column-right {
+	box-sizing: border-box;
+	max-width: calc(100% - 570px);
+	padding-left: 24px;
+}

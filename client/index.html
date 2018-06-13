@@ -11,11 +11,41 @@
   </head>
   <body>
 
-    <div id="app"></div>
+    <div id="page">
+      <header>
+        <h1>Itsy</h1>
+      </header>
+      <nav>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>          
+      </nav>
+
+      <div class="column" id="column-left">
+        <div id="photo-gallery"></div>
+        <div id="description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus lorem, scelerisque vitae libero sit amet, gravida tincidunt ligula. Sed sit amet arcu massa. Fusce leo velit, tempor et purus eu, vestibulum dapibus tortor. Suspendisse accumsan tempus convallis. Proin in purus risus. Fusce et purus at quam mattis ultricies non nec ex. Pellentesque vitae nulla id sapien faucibus vestibulum. Sed tristique nisl ac commodo laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra id dui sed interdum.</p>
+
+          <p>Suspendisse maximus sagittis iaculis. Duis pellentesque est elit, et porttitor tortor rhoncus ac. Duis tincidunt tincidunt eros vitae sodales. Vivamus convallis nisl odio, efficitur dictum purus blandit in. Maecenas et porttitor ex. Mauris consectetur, quam non eleifend congue, est sapien efficitur ipsum, at placerat tellus sem sit amet arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut euismod vel lorem ultrices convallis. Nam ac orci urna. Nulla porttitor sagittis nisi, sit amet efficitur enim posuere id. Aenean pulvinar mi tellus, non fermentum ex rhoncus vitae.</p>
+        </div>
+        <div id="reviews"></div>
+      </div>
+      <div class="column" id="column-right">
+        <div id="purchase"></div>
+      </div>  
+    </div>
 
     <script type="text/javascript" src="./app.js"></script>
 
-    <script type="text/javascript" src="http://localhost:3001/main.js"></script>
+    <script type="text/javascript" src="http://localhost:3001/photo-gallery.js"></script>
+
+    <script type="text/javascript" src="http://localhost:3002/bundle.js"></script>
+
+    <script type="text/javascript" src="http://localhost:3003/app.js"></script>
 
   </body>
 </html>
